@@ -1,0 +1,32 @@
+type: GenericSmelter
+name: Routerium Maker
+description: Smashes together Routerium Sand and Raw Routerium, in a process not unlike making silicon to make Routerium.
+health: 220
+liquidCapacity: 0
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 180
+flamecolor: D7643E
+consumes: {
+  power: 34
+    items:{
+     items:[
+      router-sand/2
+      raw_router/1
+      ]
+   }
+}
+requirements: [
+  silicon/60
+  titanium/60
+  copper/300
+  lead/150
+  thorium/45
+]
+category: crafting
+research: silicon-crucible
+idleSound: respawning
+idleSoundVolume: 0.3
+outputItem: routerium/2

@@ -1,0 +1,6 @@
+type: resource
+name: Raw Routerium
+description: Raw routerium, if combined with routerium sand, it will create Routerium.
+cost: 2.5
+hardness: 5
+color: ff0000

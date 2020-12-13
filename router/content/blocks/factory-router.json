@@ -1,0 +1,23 @@
+name: Router Factory
+type: UnitFactory
+size: 3
+consumes: {
+  power: 300
+}
+plans: [
+  {
+    unit: routercrawler
+    requirements: [
+      routerium/1
+    ] 
+    time: 15
+  }
+]
+requirements: [
+  copper/50
+  lead/30
+  silicon/20
+  routerium/10
+]
+category:units
+research:"router-maker"

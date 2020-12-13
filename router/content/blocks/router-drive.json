@@ -1,0 +1,22 @@
+type: SingleTypeGenerator
+name: Routerium Drive
+description: Makes Power using Routerium.
+size: 2
+hasPower: true
+hasItems: true
+itemDuration: 60
+powerProduction: 100
+consumes: {
+  items: {
+    items: [
+      routerium/1
+    ]
+  }
+}
+requirements: [
+  routerium/3
+  thorium/15
+  silicon/30
+]
+category: power
+research: combustion-generator

@@ -1,0 +1,19 @@
+name: Router Mass Driver
+description: Litreally a drill made out of router, what the hell.
+type: MassDriver
+size: 3
+itemCapacity: 200
+reloadTime: 180
+range: 1500
+consumes: {
+  power: 8.5
+}
+requirements: [
+  routerium/25
+  copper/200
+  lead/150
+  silicon/100
+  titanium/100
+]
+category: distribution
+research: mass-driver

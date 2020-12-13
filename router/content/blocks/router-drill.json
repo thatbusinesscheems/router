@@ -1,0 +1,23 @@
+name: Router Drill
+description: Litreally a drill made out of router, what the hell.
+type: Drill
+size: 4
+tier: 5
+drillTime: 10
+consumes: {
+  power: 8.5
+  liquid: {
+    liquid: water
+    amount: 0.1
+    booster: true
+  }
+}
+requirements: [
+  routerium/30
+  silicon/50
+  titanium/100
+  copper/300
+  lead/200
+]
+category: production
+research: blast-drill

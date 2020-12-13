@@ -1,0 +1,32 @@
+type: mech
+name: Router Crawler
+description: OH MY GOD ITS COMING TO ME OH MY FUCKING GOD OH GOD
+
+health: 20000
+speed: 2
+drag: 0.4
+hitSize: 8
+MechSideSway: 0.25
+range: 60
+rotateSpeed: 5
+research: crawler
+
+weapons: [{
+  name: routergoboom
+  reload: 40
+  ShootCone: 360
+  ejectEffect: none
+  ShootSound: explosion
+  bullet: {
+    type: BombBulletType
+	hitEffect: pulverize
+    speed: 1
+	splashDamageRadius: 100
+    splashDamage: 10000
+    lifetime: 1000
+	killShooter: true
+    hittable: false
+    collidesAir: true
+	instantDisappear: true
+  }
+}]

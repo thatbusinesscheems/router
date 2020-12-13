@@ -1,0 +1,5 @@
+type: resource
+name: Routerium Sand
+description: An alloy of items from the past, used to create Routerium.
+cost: 2.5
+color: ff0000

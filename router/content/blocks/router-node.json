@@ -1,0 +1,12 @@
+name: Router Node
+description: A node made out of Routerium, has huge range, but few connections.
+type: PowerNode
+size: 3
+laserRange: 300
+requirements: [
+  routerium/5
+  copper/20
+  lead/20
+]
+category: power
+research: power-node-large

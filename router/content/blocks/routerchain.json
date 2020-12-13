@@ -1,0 +1,14 @@
+name: Router Chain
+description: A core made out of routerium
+type: CoreBlock
+health: 40000
+size: 6
+itemCapacity: 35000
+unloadable: true
+category: effect
+research: core-foundation
+unitType: routa
+unitCapModifier: 50
+requirements: [
+  routerium/500
+]

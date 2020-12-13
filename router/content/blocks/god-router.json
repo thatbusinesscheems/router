@@ -1,0 +1,10 @@
+{
+	"name": "God Router",
+	"type": "Router"
+	"size": 1,
+	"health": 1000000,
+	"requirements": ["routerium/1000"],
+	"category": "distribution",
+	"research": "router"
+	"description":"The mother of all routers. It is basically invincible."
+} 

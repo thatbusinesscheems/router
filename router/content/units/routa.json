@@ -1,0 +1,40 @@
+name: routa
+description: An enhanced core mech.
+isCounted: false
+flying: true
+mineSpeed: 15
+mineTier: 2
+buildSpeed: 2.5
+drag: 0.05
+speed: 5
+rotateSpeed: 19f
+accel: 3f
+itemCapacity: 500
+health: 1000
+engineOffset: 6f
+hitSize: 11
+commandLimit : 5
+weapons: [{
+  top: false
+  name: routawep
+  x: 1
+  y: 2
+  shots: 2
+  spacing: 2
+  inaccuracy: 0
+  shotDelay: 3
+  reload: 5
+  ShootCone: 360
+  ejectEffect: casing1
+  bullet: {
+    speed: 5
+	damage: 100
+    type: BasicBulletType
+	width: 6.5
+    height: 11
+	lifetime: 70
+	shootEffect: shootSmall
+	smokeEffect: shootSmallSmoke
+	homingPower: 0.2
+  }
+}]

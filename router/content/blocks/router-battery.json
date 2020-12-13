@@ -1,0 +1,15 @@
+name: Router Battery
+description: A battery made out of Routerium. Can store a lot of power.
+size: 4
+type: Battery
+consumes: {
+	powerBuffered: 400000
+}
+
+requirements: [
+  routerium/5
+  copper/20
+  lead/20
+]
+category: power
+research: power-node-large
