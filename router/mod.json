@@ -2,7 +2,7 @@
   "name": "router",
   "displayName": "RouterMod",
   "author": "Business Cheems, kimtaeco",
-  "description": "weird useless router mod.[]",
-  "version": 1.04
-  minGameVersion: "105"
+  "description": "weird useless router mod. not meant to rip off routorio.[]",
+  "version": 1.06
+  minGameVersion: "120"
 }
